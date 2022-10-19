@@ -1,0 +1,21 @@
+var login = require('./login');
+var registrarUsuario = require('./registrarUsuario');
+var actualizarPass = require('./actualizarPass');
+var preguntasPrimerLogin = require('./preguntasPrimerLogin'); 
+var insertarPreguntasUsuario = require('./insertarPreguntasUsuario'); 
+var actualizaEstadoUsuario = require('./actualizaEstadoUsuario'); 
+var usuarios = require('./usuarios'); 
+var obtenerObjetos = require('./obtenerObjetos'); 
+var roles = require('./roles'); 
+var objetosParametros = require('./objetosParametros'); 
+
+exports.login = login.login;
+exports.registrarUsuario = registrarUsuario.registrarUsuario;
+exports.actualizarPass = actualizarPass.actualizarPass;
+exports.preguntasPrimerLogin = preguntasPrimerLogin.preguntasPrimerLogin;
+exports.insertarPreguntasUsuario = insertarPreguntasUsuario.insertarPreguntasUsuario;
+exports.actualizaEstadoUsuario = actualizaEstadoUsuario.actualizaEstadoUsuario;
+exports.usuarios = usuarios.usuarios;
+exports.obtenerObjetos = obtenerObjetos.obtenerObjetos;
+exports.roles = roles.roles;
+exports.objetosParametros = objetosParametros.objetosParametros;
